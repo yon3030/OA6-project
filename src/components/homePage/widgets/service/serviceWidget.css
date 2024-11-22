@@ -1,0 +1,79 @@
+.service-widget {
+    text-align: center;
+    color: #f0f0f0;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+.service-widget h1 {
+    cursor: pointer;
+    margin-bottom: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-item {
+    text-align: left;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+
+.service-item img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Rounded corners for images */
+    cursor: pointer;
+}
+
+.service-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.service-item p {
+    font-size: 1rem;
+}
+
+.service-button {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 44.5px;
+    height: 86px;
+    background-color: transparent;
+    border: 2px solid #00d69f;
+    color: #00d69f;
+    text-decoration: none;
+    border-radius: 64px;
+    font-size: 24px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* white-space: nowrap; Prevent text from wrapping */
+}
+
+.marketplace-icon {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-button:hover {
+    background-color: #27272766;
+    
+}
+
+.service-button:active {
+    background-image: linear-gradient(to right, #20D795 , #145765);
+    color: #151515;
+}
+
+.service-button:hover .marketplace-icon {
+    transform: translateX(5px);
+}

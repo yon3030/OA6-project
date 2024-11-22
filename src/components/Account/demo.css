@@ -1,0 +1,27 @@
+.close-button:hover .close-button-icon {
+   color: white;
+}
+
+.email-input-box {
+   border-width: 1px; /* Ensure border width is set */
+  border-style: solid; /* Ensure border style is solid */
+  border-image-source: linear-gradient(156.52deg, rgba(255, 255, 255, 0.4) 2.12%, rgba(255, 255, 255, 0.0001) 39%, rgba(255, 255, 255, 0.0001) 54.33%, rgba(255, 255, 255, 0.1) 93.02%);
+  border-image-slice: 1;
+  border-radius: 16px !important;
+}
+
+.email-input-wrapper {
+   border-width: 1px;
+   border-style: solid;
+   border-image-source: linear-gradient(156.52deg, rgba(255, 255, 255, 0.4) 2.12%, rgba(255, 255, 255, 0.0001) 39%, rgba(255, 255, 255, 0.0001) 54.33%, rgba(255, 255, 255, 0.1) 93.02%);
+   border-image-slice: 1;
+   border-radius: 16px; /* Ensure this matches rounded-2xl */
+ }
+
+ .submit-button:hover {
+   background-color: #20d795 !important;
+ }
+
+ /* .dialog-modal {
+    width: 415px !important;
+ } */

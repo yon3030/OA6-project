@@ -1,0 +1,57 @@
+.skewed-rect-left {
+  transform: skewX(15deg);
+  /* Adjust the angle to get the desired effect */
+  overflow: hidden;
+  /* Ensures content doesn't overflow the skewed shape */
+}
+
+.skewed-rect-left-img {
+  transform: skewX(-15deg);
+  /* Counter-skew the image to keep it straight */
+  width: 100%;
+  height: 100%;
+}
+
+.right-rectangle {
+  transform: skewX(15deg);
+  /* Adjust the angle to get the desired effect */
+  overflow: hidden;
+  /* Ensures content doesn't overflow the skewed shape */
+}
+
+.right-rectangle-img {
+  transform: skewX(-15deg);
+  /* Counter-skew the image to keep it straight */
+  width: 100%;
+  height: 100%;
+}
+
+.active-category-btn {
+  transform: skewY(10deg);
+  /* Adjust the angle to get the desired effect */
+  overflow: hidden;
+  /* Ensures content doesn't overflow the skewed shape */
+}
+
+.active-category-text {
+  transform: skewY(-10deg);
+  /* Adjust the angle to get the desired effect */
+  overflow: hidden;
+  /* Ensures content doesn't overflow the skewed shape */
+}
+
+.mask::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  bottom: 0;
+  background: rgba(
+    27,
+    27,
+    27,
+    0.3
+  ); /* Background color to cover the masked area */
+}

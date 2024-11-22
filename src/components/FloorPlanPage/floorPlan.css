@@ -1,0 +1,27 @@
+.clip-triangle {
+   width: 0;
+   height: 0;
+   border-left: 16px solid transparent;
+   border-right: 16px solid transparent;
+   border-top: 16px solid #f7fafc;
+}
+
+.quotebox {
+   position: relative;
+   background-color: #f0f0f0; /* Background color of the quote box */
+   padding: 20px;
+   border-radius: 10px;
+   width: 300px; /* Adjust as needed */
+   margin: 0 auto;
+ }
+ 
+ .quotebox::after {
+   content: "";
+   position: absolute;
+   bottom: -15px; /* Adjust based on the triangle size */
+   left: 50%;
+   transform: translateX(-50%);
+   border-width: 15px; /* Adjust for triangle size */
+   border-style: solid;
+   border-color: #f0f0f0 transparent transparent transparent; /* Match background color */
+ }

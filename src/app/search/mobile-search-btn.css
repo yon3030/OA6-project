@@ -1,0 +1,16 @@
+.mobile-search-btn {
+    position: fixed !important;
+    width: calc(100vw - 48px);
+    background: #20d795; /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    transition: background-color 0.3s; /* Smooth transition for color change */
+}
+/* 
+.mobile-search-btn:hover {
+    background-color: #20d795; 
+}
+
+.mobile-search-btn:active {
+    background-color: #20d795;
+} */

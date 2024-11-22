@@ -1,0 +1,1 @@
+export const WidgetBorderContainer = `mt-3 mx-3 md:my-[91.5px] md:mx-8 flex gradient-border gradient-default-border items-center justify-center overflow-hidden  relative gradient-border-rounded-30px rounded-[30px] bg-primary-default h-screen`;
